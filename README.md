@@ -33,7 +33,7 @@ cd frontend
 npm install
 npm run dev
 
-# The app will run on: http://localhost:3000
+# The app will run on: http://localhost:5173
 ```
 
 # 📫 Author : Bhushan Deshmukh
