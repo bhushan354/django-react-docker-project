@@ -28,7 +28,7 @@ class PostListCreate(generics.ListCreateAPIView):
 
 class PostDelete(generics.DestroyAPIView):
     serializer_class = PostSerializer
-    Permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         user = self.request.user
