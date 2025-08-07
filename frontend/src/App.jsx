@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Register from "./pages/Register";
 import ProtectedRoute from "./components/ProtectedRoute";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Logout() {
   localStorage.clear();
